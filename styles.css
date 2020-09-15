@@ -15,7 +15,7 @@ p {
 
 h1 {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   /* text-decoration: underline; */
 }
 
@@ -63,12 +63,12 @@ h4 {
 
 .hidden-anchor {
     position: relative;
-    top: -50px;
+    top: -55px;
  }
 
 /* TOP CAROUSEL */
 #topCarousel  {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-bottom: 16rem;
 }
 
@@ -147,4 +147,16 @@ h4 {
 /* INSTAGRAM */
 .instagram  {
   url(instagram.svg), auto;
+}
+
+
+/* FOOTER */
+.footer  {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 95px;
+}
+
+#footerTag  {
+  padding: 0px;
 }
