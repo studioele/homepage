@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* SETUP FONTS */
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* LOGO */
+#ELE_logo  {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18pt;
+}
+
+
+/* NAVBAR */
+.navbar  {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+  height: 60px;
+  background-color: white;
+}
+
+.navbar-brand  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+}
+
+.nav-link  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  text-decoration:line-through;
+}
+
+.hidden-anchor {
+    position: relative;
+    top: -50px;
+ }
+
+/* TOP CAROUSEL */
+#topCarousel  {
+  margin-top: 60px;
+  margin-bottom: 16rem;
+}
+
+
+/* ABOUT */
+.about {
+  margin-bottom: 16rem;
+  text-align: justify;
+}
+
+
+
+
+.contact {
+  margin-bottom: 16rem;
+  text-align: justify;
+}
+
+
+/* POTFOLIO */
+
+.portfolioStartItem{
+  height: 0rem;
+  margin-top: 0rem;
+}
+
+.carousel-caption {
+  /* text-align: left; */
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 2rem
+}
+
+
+
+.portfolioItem {
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+
+
+#caption-left {
+  text-align: left;
+}
+
+#caption-right {
+  text-align: right;
+}
+
+.portfolioItemHeader * {
+  height: 5rem;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+#itemDescription{
+  text-align: right;
+}
+
+#itemSubscription{
+  text-align: left;
+}
+
+.carousel-control-prev {
+  cursor: url(img/arrow-left.svg), auto;
+}
+
+.carousel-control-next {
+  cursor: url(img/arrow-right.svg), auto;
+}
+
+
+
+
+/* INSTAGRAM */
+.instagram  {
+  url(instagram.svg), auto;
+}
