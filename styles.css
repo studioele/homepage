@@ -130,13 +130,13 @@ h4 {
 }
 
 .portfolioItemHeader * {
-  height: 5rem;
+  height: auto;
   text-align: left;
   vertical-align: bottom;
 }
 
 #itemDescription{
-  text-align: right;
+  text-align: justify;
 }
 
 #itemSubscription{
